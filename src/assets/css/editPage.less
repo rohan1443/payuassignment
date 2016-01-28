@@ -1,0 +1,72 @@
+.formBody{
+	display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+          height: 100vh;
+
+	.formContainer{
+		width: 50%;
+		box-shadow: 1px 5px 3px rgb(204, 204, 204);
+		.header{
+			background: #818181 none repeat scroll 0 0;
+			padding: 16px 0;
+			input{
+				background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    			border: medium none;
+    			&.fullName{
+    				font-size: 24px;
+    				font-weight: 700;
+    				color: #FFFFFF;
+    			}
+    			&.emailId{
+    				font-size: 14px;
+    				font-weight: 400;
+    				color: #FFFFFF;
+    			}
+			}
+			input[type="button"]{
+				background: #fff;
+			}
+		}
+		.bodyContent{
+			.bodyHeaders{
+				padding:10px 0px;
+				color: #3D3D3D;
+				font-size: 16px;
+				font-weight: 400;
+			}
+			.textEntry{
+				border: 2px solid #ccc;
+    			border-radius: unset;
+    			box-shadow: 1px 7px 4px #818181;
+    			background: #FAFAFA;
+    			padding: 8px 8px;
+			}
+			.headlineArea{
+				max-width: 100%;
+    			min-width: 100%;
+    			width: 100%;
+    			min-height: 15vh;
+    			max-height: 15vh;
+			}
+			.skillsArea{
+				max-width: 100%;
+    			min-width: 100%;
+    			width: 100%;
+    			//min-height: 5vh;
+    			//max-height: 5vh;
+			}
+			.urlId{
+				max-width: 100%;
+    			min-width: 100%;
+    			width: 100%;
+			}
+		}
+		.footer{
+			padding: 35px 0;
+		}
+	}
+}
